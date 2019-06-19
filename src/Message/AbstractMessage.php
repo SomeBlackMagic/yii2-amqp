@@ -17,10 +17,10 @@ abstract class AbstractMessage extends BaseObject
      */
     public $contentType;
 
-    protected const CONTENT_TYPE_TEXT = 'text/plain';
-    protected const CONTENT_TYPE_OCTET_STREAM = 'application/octet-stream';
-    protected const CONTENT_TYPE_JSON = 'application/json';
-    protected const CONTENT_TYPE_XML = 'application/xml';
+    public const CONTENT_TYPE_TEXT = 'text/plain';
+    public const CONTENT_TYPE_OCTET_STREAM = 'application/octet-stream';
+    public const CONTENT_TYPE_JSON = 'application/json';
+    public const CONTENT_TYPE_XML = 'application/xml';
     
     /**
      * @var string
