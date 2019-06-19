@@ -1,0 +1,32 @@
+{
+    "name": "someblackmagic/yii2-amqp",
+    "license": "GNU",
+    "type": "library",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andru Cherny"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "ext-pcntl": "*",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "php-amqplib/php-amqplib": "2.7.*",
+        "ramsey/uuid": "^3.7",
+        "yiisoft/yii2": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SomeBlackMagic\\AMQP\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
